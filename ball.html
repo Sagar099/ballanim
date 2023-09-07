@@ -24,11 +24,21 @@
             border-radius: 50%;
             position: relative;
             animation: bounce 1s infinite alternate;
+            margin-right: 20px;
+        }
+        .ball-two{
+            width: 80px;
+            height: 80px;
+            background-color: navy;
+            border-radius: 50%;
+            position: relative;
+            animation: bounce 1s infinite alternate;
+
         }
         
         @keyframes bounce {
             0% {
-                top: 0px;
+                top: 0;
             }
             100% {
                 top: 100px;
@@ -38,5 +48,6 @@
 </head>
 <body>
     <div class="ball"></div>
+    <div class="ball-two"></div>
 </body>
 </html>
